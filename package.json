@@ -1,0 +1,18 @@
+{
+  "name": "node-react-template",
+  "version": "1.0.0",
+  "description": "Bootstrap project for node+react apps",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server/index.js",
+    "devserver": "nodemon src/server/index.js"
+  },
+  "author": "Marko Pandurovic",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
