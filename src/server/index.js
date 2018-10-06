@@ -2,9 +2,9 @@ import express from 'express';
 
 const app = express();
 
-app.use(express.static('dist'));
+app.use(express.static('dist/client'));
 app.get('/api/hello', (req, res) => res.send({
-  hello: 'reload test',
+  hello: 'world',
 }));
 
 // eslint-disable-next-line no-console
