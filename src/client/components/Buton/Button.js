@@ -1,10 +1,11 @@
 import React from 'react';
+import { Button as BootstrapButton } from 'reactstrap';
 
 class Button extends React.Component {
 
   render() {
     return (
-      <button type="submit">{this.props.label}</button>
+      <BootstrapButton type="submit">{this.props.label}</BootstrapButton>
     )
   }
   

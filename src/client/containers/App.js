@@ -4,7 +4,7 @@ import Signup from './auth/Signup';
 import Dashboard from './Dashboard';
 
 const App = () => (
-  <div>
+  <div className="container">
     <Route exact path="/" component={Dashboard} />
     <Route exact path="/signup" component={Signup} />
   </div>
