@@ -1,7 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import Signup from './auth/Signup';
 import Dashboard from './Dashboard';
+
+import './App.scss';
 
 const App = () => (
   <div className="container">

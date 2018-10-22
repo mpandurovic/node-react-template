@@ -1,10 +1,11 @@
 import React from 'react';
 import { Form, FormGroup, Label, Input, Button } from 'reactstrap';
 // import Button from '../../components/Buton/Button';
+import './Signup.scss';
 
 export default () => (
   <div className="row justify-content-md-center">
-    <Form>
+    <Form className="signup-form">
       <FormGroup>
         <Label htmlFor="signup-email">Email:</Label>
         <Input field="email" id="signup-email" />
