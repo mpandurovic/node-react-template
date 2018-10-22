@@ -1,5 +1,7 @@
 # Node/React Template Project
 
+Node.js/React boilerplate code that includes setup for Webpack, Sass, Babel, Redux, Express, ESLint etc.
+
 Directory structure:
 
 ```
