@@ -3,8 +3,8 @@ import express from 'express';
 const app = express();
 
 app.use(express.static('dist/client'));
-app.get('/api/hello', (req, res) => res.send({
-  hello: 'world',
+app.get('/api', (req, res) => res.send({
+  appName: 'Template App',
 }));
 
 // eslint-disable-next-line no-console

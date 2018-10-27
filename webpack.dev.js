@@ -6,7 +6,6 @@ module.exports = merge(common, {
   devtool: 'nosources-source-map',
   devServer: {
     port: 3030,
-    open: true,
     proxy: {
       '/': 'http://localhost:8080',
     },
